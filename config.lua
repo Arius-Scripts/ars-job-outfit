@@ -1,13 +1,28 @@
 Config = {}
 
+Config.UseCutScene = false
 
-Config.Jobs = {
+Config.DressingRoom = {
+    player = {
+        pos = vector3(347.2311706543, -993.86151123047, -99.196327209473),
+        heading = 271.2143249511719,
+        goPos = vector4(350.70156860352, -994.40155029297, -99.147247314453, 177.78462219238)
+    },
+    cam = {
+        camPos = vector3(350.80410766602, -999.18676757813, -98.319580078125),
+        camRot = vector3(-29.221839904785,-0.0,-0.67475789785385),
+    }
+}
+
+
+Config.Outfits = {
     police = {
-        coords      = vector3(-115.96, 583.24, 211.2),
+        coords      = vector3(-255.00062561035, -979.79895019531, 31.20449256897),
 
         ["1"] = {
             outfitName  = "testing2",
             job         = "police",
+            grade       = 0,
             model       = "mp_m_freemode_01",
             arms        = {component_id = 3, texture = 0, drawable = 0},
             torso       = {component_id = 11, texture = 0, drawable = 93},
@@ -23,6 +38,7 @@ Config.Jobs = {
         ["2"] = {
             outfitName  = "snewy",
             job         = "police",
+            grade       = 0,
             model       = "mp_m_freemode_01",
             arms        = {component_id = 3, texture = 0, drawable = 0},
             torso       = {component_id = 11, texture = 0, drawable = 23},
@@ -42,6 +58,7 @@ Config.Jobs = {
         ["1"] = {
             outfitName  = "dsada",
             job         = "mechanic",
+            grade       = 0,
             model       = "mp_m_freemode_01",
             arms        = {component_id = 3, texture = 0, drawable = 0},
             torso       = {component_id = 11, texture = 0, drawable = 93},
@@ -57,6 +74,7 @@ Config.Jobs = {
         ["2"] = {
             outfitName  = "snewy",
             job         = "mechanic",
+            grade       = 0,
             model       = "mp_m_freemode_01",
             arms        = {component_id = 3, texture = 0, drawable = 0},
             torso       = {component_id = 11, texture = 0, drawable = 93},

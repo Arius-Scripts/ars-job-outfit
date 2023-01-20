@@ -2,10 +2,10 @@ fx_version   'cerulean'
 use_fxv2_oal 'yes'
 lua54        'yes'
 game         'gta5'
-
+version      '1.0.3'
 
 author          '🔪 | Ali#0169'
-description     'Job clothing system for fivem-appearance!'
+description     'Job clothing system for illenium-appearance!'
 
 
 client_script   "client/*.lua"
@@ -18,10 +18,8 @@ shared_scripts  {
 }
 
 
-
 dependencies {
-    "fivem-appearance",
+    "illenium-appearance",
     "ox_lib",
-    "ox_appearance"
 }
 
