@@ -4,7 +4,7 @@ A simple script to manage job clothes for illenium-appearance
 
 
 [Ita]
-Un semplice script per gestire gli abiti da lavoro per illenium-appearance
+Un semplice script per gestire gli abiti da lavoro per fivem-appearance
 
 
 For any help needed you can join my discord: https://discord.gg/SsjPZR5CdA
