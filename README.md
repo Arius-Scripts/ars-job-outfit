@@ -11,7 +11,7 @@ For any help needed you can join my discord: https://discord.gg/SsjPZR5CdA
 
 dependencies:
 
-illenium-appearance  https://forum.cfx.re/t/release-illenium-appearance/2438537
+fivem-appearance  https://github.com/pedr0fontoura/fivem-appearance
 
 ox_lib            https://github.com/overextended/ox_lib/releases/tag/v2.10.5
 
