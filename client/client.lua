@@ -41,6 +41,6 @@ end)
 
 RegisterNetEvent('ars-job-outfit:takeOutfit')
 AddEventHandler('ars-job-outfit:takeOutfit',function(data)
-    exports['illenium-appearance']:setPedComponents(cache.ped, {data.torso,data.undershirt,data.pants,data.shoes,data.bag,data.accesories,data.kevlar,data.badge,data.arms})  
-    exports['illenium-appearance']:setPedProps(cache.ped, {data.hat})     
+    exports['fivem-appearance']:setPedComponents(cache.ped, {data.torso,data.undershirt,data.pants,data.shoes,data.bag,data.accesories,data.kevlar,data.badge,data.arms})  
+    exports['fivem-appearance']:setPedProps(cache.ped, {data.hat})     
 end)
