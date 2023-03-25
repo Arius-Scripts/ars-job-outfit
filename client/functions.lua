@@ -1,20 +1,7 @@
-ESX = exports.es_extended:getSharedObject()
-
 function OpenMenu()
     lib.registerContext({
         id = 'openMenu',
         title = "Ars job Outfits",
-        onExit = function()
-            if Config.UseCutScene then
-                DoScreenFadeOut(600)
-                Wait(600)
-                SetEntityCoords(cache.ped, lastPos)
-                Wait(600)
-                DoScreenFadeIn(600)
-                RenderScriptCams(0, 0, 1, 1, 1)
-            end
-        end,
-    
         options = {
             {
                 title = "Job Oufits",
@@ -30,35 +17,9 @@ function OpenMenu()
             },
         }
     })
-    if not Config.UseCutScene then
-        lib.showContext('openMenu')
-    end
-end
-
-function dressingRoom()
-    local ped       = cache.ped
-    local heading   = Config.DressingRoom.player.heading
-    local pos       = Config.DressingRoom.player.pos
-    local goPos     = Config.DressingRoom.player.goPos
-    DoScreenFadeOut(600)
-    Wait(600)
-    SetEntityCoords(ped, pos)
-    Wait(600)
-    DoScreenFadeIn(600)
-
-    local camPos = Config.DressingRoom.cam.camPos
-    local camRot = Config.DressingRoom.cam.camRot
-    
-    cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
-    
-    SetCamCoord(cam, camPos)
-    SetCamRot(cam, camRot)
-    
-    RenderScriptCams(true, false, 0, true, true)
-    TaskPedSlideToCoord(ped, goPos.x, goPos.y, goPos.z, goPos.w)
     lib.showContext('openMenu')
-end
 
+end
 
 function NormalClothes()
     ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin)
@@ -143,16 +104,6 @@ function OpenJobOutfit()
                             id = 'outfits',
                             title = 'Job Outfits',
                             menu = 'openMenu',
-                            onExit = function()
-                                if Config.UseCutScene then
-                                    DoScreenFadeOut(600)
-                                    Wait(600)
-                                    SetEntityCoords(cache.ped, lastPos)
-                                    Wait(600)
-                                    DoScreenFadeIn(600)
-                                    RenderScriptCams(0, 0, 1, 1, 1)
-                                end
-                            end,
                             options = opz
                         })
                         lib.showContext('outfits')

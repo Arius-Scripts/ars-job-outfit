@@ -14,5 +14,3 @@ dependencies:
 fivem-appearance  https://github.com/pedr0fontoura/fivem-appearance
 
 ox_lib            https://github.com/overextended/ox_lib/releases/tag/v2.10.5
-
-ox_appearance     https://github.com/overextended/ox_appearance

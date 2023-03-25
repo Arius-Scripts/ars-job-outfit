@@ -1,0 +1,78 @@
+Config = {}
+
+
+
+Config.Outfits = {
+    {
+        coords      = vector3(-750.87420654297, -298.06713867188, 53.995910644531),
+
+        ["1"] = {
+            outfitName  = "testing2",
+            job         = "police",
+            grade       = 0,
+            model       = "mp_m_freemode_01",
+            arms        = {component_id = 3, texture = 0, drawable = 0},
+            torso       = {component_id = 11, texture = 0, drawable = 93},
+            undershirt  = {component_id = 8, texture = 0, drawable = 15},
+            pants       = {component_id = 4, texture = 2, drawable = 87},
+            shoes       = {component_id = 6, texture = 0, drawable = 25},
+            bag         = {component_id = 5, texture = 6, drawable = 281},
+            accesories  = {component_id = 7, texture = 0, drawable = 0},
+            kevlar      = {component_id = 9, texture = 0, drawable = 59},
+            badge       = {component_id = 10, texture = 0, drawable = 0},
+            hat         = {component_id = 0, texture = 0, drawable = -1},
+        },
+        ["2"] = {
+            outfitName  = "snewy",
+            job         = "police",
+            grade       = 0,
+            model       = "mp_m_freemode_01",
+            arms        = {component_id = 3, texture = 0, drawable = 0},
+            torso       = {component_id = 11, texture = 0, drawable = 23},
+            undershirt  = {component_id = 8, texture = 0, drawable = 1},
+            pants       = {component_id = 4, texture = 2, drawable = 13},
+            shoes       = {component_id = 6, texture = 0, drawable = 25},
+            bag         = {component_id = 5, texture = 6, drawable = 21},
+            accesories  = {component_id = 7, texture = 0, drawable = 3},
+            kevlar      = {component_id = 9, texture = 0, drawable = 2},
+            badge       = {component_id = 10, texture = 0, drawable = 0},
+            hat         = {component_id = 0, texture = 0, drawable = -1},
+        },
+    },
+    {
+        coords      = vector3(-124.56, 582.28, 211.08),
+
+        ["1"] = {
+            outfitName  = "dsada",
+            job         = "mechanic",
+            grade       = 0,
+            model       = "mp_m_freemode_01",
+            arms        = {component_id = 3, texture = 0, drawable = 0},
+            torso       = {component_id = 11, texture = 0, drawable = 93},
+            undershirt  = {component_id = 8, texture = 0, drawable = 15},
+            pants       = {component_id = 4, texture = 2, drawable = 87},
+            shoes       = {component_id = 6, texture = 0, drawable = 25},
+            bag         = {component_id = 5, texture = 6, drawable = 281},
+            accesories  = {component_id = 7, texture = 0, drawable = 0},
+            kevlar      = {component_id = 9, texture = 0, drawable = 59},
+            badge       = {component_id = 10, texture = 0, drawable = 0},
+            hat         = {component_id = 0, texture = 0, drawable = -1},
+        },
+        ["2"] = {
+            outfitName  = "snewy",
+            job         = "mechanic",
+            grade       = 0,
+            model       = "mp_m_freemode_01",
+            arms        = {component_id = 3, texture = 0, drawable = 0},
+            torso       = {component_id = 11, texture = 0, drawable = 93},
+            undershirt  = {component_id = 8, texture = 0, drawable = 15},
+            pants       = {component_id = 4, texture = 2, drawable = 87},
+            shoes       = {component_id = 6, texture = 0, drawable = 25},
+            bag         = {component_id = 5, texture = 6, drawable = 281},
+            accesories  = {component_id = 7, texture = 0, drawable = 0},
+            kevlar      = {component_id = 9, texture = 0, drawable = 59},
+            badge       = {component_id = 10, texture = 0, drawable = 0},
+            hat         = {component_id = 0, texture = 0, drawable = -1},
+        },
+    },
+}
